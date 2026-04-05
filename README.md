@@ -10,10 +10,11 @@
   <a href="#-ghostty"><img src="https://img.shields.io/badge/Ghostty-1e1e2e?style=for-the-badge&logo=ghost&logoColor=cba6f7" alt="Ghostty"/></a>
   <a href="#-starship"><img src="https://img.shields.io/badge/Starship-1e1e2e?style=for-the-badge&logo=starship&logoColor=f9e2af" alt="Starship"/></a>
   <a href="#-zsh"><img src="https://img.shields.io/badge/Zsh-1e1e2e?style=for-the-badge&logo=gnubash&logoColor=a6e3a1" alt="Zsh"/></a>
+  <a href="#-windows-terminal"><img src="https://img.shields.io/badge/Windows%20Terminal-1e1e2e?style=for-the-badge&logo=windowsterminal&logoColor=89b4fa" alt="Windows Terminal"/></a>
 </p>
 
 <p align="center">
-  <i>My macOS terminal setup — minimal, fast, keyboard-driven.</i>
+  <i>My terminal setup — minimal, fast, keyboard-driven.</i>
 </p>
 
 ---
@@ -22,9 +23,10 @@
 
 ```
 dotfiles/
-├── ghostty/       → terminal emulator
-├── starship/      → cross-shell prompt
-└── zshrc/         → shell config + aliases
+├── ghostty/            → terminal emulator (macOS)
+├── starship/           → cross-shell prompt
+├── windows-terminal/   → terminal emulator (Windows)
+└── zshrc/              → shell config + aliases
 ```
 
 ---
@@ -97,6 +99,38 @@ Minimal prompt that auto-detects your project context (Node, Python, Rust, Go, D
 |:--------|:-------|
 | <kbd>Ctrl</kbd> <kbd>W</kbd> | Execute autosuggestion |
 | <kbd>Ctrl</kbd> <kbd>E</kbd> | Accept autosuggestion |
+
+---
+
+## 💻 Windows Terminal
+
+> Catppuccin Mocha theme · JetBrainsMono Nerd Font · acrylic opacity 80%
+
+<details>
+<summary><b>⌨️ Keybindings</b></summary>
+
+| Keys | Action |
+|:-----|:-------|
+| <kbd>Ctrl</kbd> <kbd>C</kbd> | Copy |
+| <kbd>Ctrl</kbd> <kbd>V</kbd> | Paste |
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>F</kbd> | Find |
+| <kbd>Alt</kbd> <kbd>Shift</kbd> <kbd>D</kbd> | Split pane (duplicate) |
+
+</details>
+
+<details>
+<summary><b>✨ Features</b></summary>
+
+- Catppuccin Mocha color scheme
+- Acrylic transparency (80% opacity)
+- Acrylic in tab row
+- JetBrainsMono Nerd Font (extra-black, size 10)
+- Filled box cursor
+- Window padding (8pt)
+- Tab width by title length
+- Copy formatting disabled (plain text only)
+
+</details>
 
 ### Aliases
 
