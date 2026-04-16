@@ -18,7 +18,7 @@ mouse-hide-while-typing = true
 scrollback-limit = 150000000
 
 shell-integration = zsh
-shell-integration-features = no-cursor,sudo,ssh-env,ssh-terminfo,path
+shell-integration-features = cursor,sudo,ssh-env,ssh-terminfo,path
 # note: see zsh/.zshrc "ghostty integration"
 
 # cursor
